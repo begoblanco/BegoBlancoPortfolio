@@ -33,3 +33,12 @@ npm run build
 ```sh
 npm run test:unit
 ```
+src/
+├── components/
+│   ├── Navbar.vue
+│   ├── PortfolioItem.vue
+├── views/
+│   ├── Home.vue
+│   ├── About.vue
+├── App.vue
+└── main.js
