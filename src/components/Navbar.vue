@@ -26,7 +26,7 @@ export default {
   <nav class=" bg-pink-400 sticky top-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">☆ My Portfolio ☆</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap text-white">☆ My Portfolio ☆</span>
       </a>
 
       
@@ -55,7 +55,7 @@ export default {
             <a
               href="#about"
               @click="closeMenu"
-              class="block py-2 px-3 rounded md:p-0 dark:text-white dark:hover:bg-pink-500 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 rounded md:p-0 text-white hover:bg-pink-500 hover:text-white md:hover:bg-transparent"
             >
               About me
             </a>
@@ -64,7 +64,7 @@ export default {
             <a
               href="#techstack"
               @click="closeMenu"
-              class="block py-2 px-3 rounded md:p-0 dark:text-white dark:hover:bg-pink-500 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 rounded md:p-0 text-white hover:bg-pink-500 hover:text-white md:hover:bg-transparent"
             >
               Tech Stack
             </a>
@@ -73,7 +73,7 @@ export default {
             <a
               href="#skills"
               @click="closeMenu"
-              class="block py-2 px-3 rounded md:p-0 dark:text-white dark:hover:bg-pink-500 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 rounded md:p-0 text-white hover:bg-pink-500 hover:text-white md:hover:bg-transparent"
             >
               Skills
             </a>
@@ -82,7 +82,7 @@ export default {
             <a
               href="#projects"
               @click="closeMenu"
-              class="block py-2 px-3 rounded md:p-0 dark:text-white dark:hover:bg-pink-500 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 rounded md:p-0 dark:text-whitehover:bg-pink-500 hover:text-white md:hover:bg-transparent"
             >
               Projects
             </a>
@@ -91,7 +91,7 @@ export default {
             <a
               href="#contact"
               @click="closeMenu"
-              class="block py-2 px-3 rounded md:p-0 dark:text-white dark:hover:bg-pink-500 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="block py-2 px-3 rounded md:p-0 text-white hover:bg-pink-500 hover:text-white md:hover:bg-transparent"
             >
               Contact me
             </a>
