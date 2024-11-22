@@ -82,7 +82,7 @@ export default {
             <a
               href="#projects"
               @click="closeMenu"
-              class="block py-2 px-3 rounded md:p-0 text-whitehover:bg-pink-500 hover:text-white md:hover:bg-transparent"
+              class="block py-2 px-3 rounded md:p-0 text-white hover:bg-pink-500 hover:text-white md:hover:bg-transparent"
             >
               Projects
             </a>
