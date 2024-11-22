@@ -6,7 +6,7 @@ const projects = [
     id: 1,
     title: "Laika",
     description: "A virtual assistant that, through the use of Large Language Models (LLM), is capable of providing answers to the user based on a database. Additionally, it features chat, notes, and a calendar for event scheduling.",
-    image: "https://private-user-images.githubusercontent.com/168825653/374137042-594b9db5-5bf9-4d3c-9629-f0ffa4aa4018.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzIyODAwMzEsIm5iZiI6MTczMjI3OTczMSwicGF0aCI6Ii8xNjg4MjU2NTMvMzc0MTM3MDQyLTU5NGI5ZGI1LTViZjktNGQzYy05NjI5LWYwZmZhNGFhNDAxOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQxMTIyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MTEyMlQxMjQ4NTFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT0wN2M1YTk5NmNhY2M5N2ZlMDQzYzRkZTY3NzFkYjQwZDJhMTI1ZDI3ZDBhODEwNzBjOWI3M2E2OTZkZjNjZmQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ZGmQAKNwQH0y0H9k1-Ks-gNKby_iDsKvvDUnWvMj7Yo",
+    image: "https://i.imgur.com/49I1AjR.jpeg",
     link: "https://github.com/begoblanco/Laika-Project-Front",
     
   },
