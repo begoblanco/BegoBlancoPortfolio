@@ -3,10 +3,11 @@
         <div class="text-center">
           <h1 class="text-3xl font-bold">Skills</h1>
         </div>
-        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <div>
+        <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 ">
+          
+          <div class="flex flex-col items-center px-6">
             <h2 class="text-xl font-semibold">Front-end</h2>
-            <ul class="mt-4 space-y-2 list-disc list-inside">
+            <ul class="mt-4 space-y-2 list-disc list-outside">
               <li>Responsive Web Design</li>
               <li>UI/UX Design Principles</li>
               <li>DOM Manipulation & Event Handling</li>
@@ -15,9 +16,9 @@
               <li>Design Prototyping with Figma</li>
             </ul>
           </div>
-          <div>
+          <div class="flex flex-col items-center px-6">
             <h2 class="text-xl font-semibold">Back-end</h2>
-            <ul class="mt-4 space-y-2 list-disc list-inside">
+            <ul class="mt-4 space-y-2 list-disc list-outside">
               <li>RESTful API Design & Development</li>
               <li>Java Web Development (Spring Boot)</li>
               <li>Object-Oriented Programming (OOP) in Java</li>
@@ -28,15 +29,15 @@
               <li>API Testing (Postman)</li>
             </ul>
           </div>
-          <div>
+          <div class="flex flex-col items-center px-6">
             <h2 class="text-xl font-semibold">Cybersecurity</h2>
-            <ul class="mt-4 space-y-2 list-disc list-inside">
+            <ul class="mt-4 space-y-2 list-disc list-outside">
               <li>Security Auditing</li>
               <li>Network Security Analysis</li>
               <li>Linux Administration</li>
               <li>SQL Query Optimization</li>
               <li>Identifying and addressing vulnerabilities</li>
-              <li>Documenting and handling incidents using standardized incident handler techniques</li>
+              <li>Documenting and handling incidents </li>
             </ul>
           </div>
         </div>
