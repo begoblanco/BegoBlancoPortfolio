@@ -23,13 +23,13 @@ export default {
 </script>
 
 <template>
-  <nav class="bg-white border-gray-200 dark:bg-pink-400 sticky top-0">
+  <nav class=" dark:bg-pink-400 sticky top-0">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">My Portfolio</span>
+        <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">☆ My Portfolio ☆</span>
       </a>
 
-      <!-- Botón del menú hamburguesa -->
+      
       <button
         type="button"
         @click="toggleMenu"
@@ -42,7 +42,7 @@ export default {
         </svg>
       </button>
 
-      <!-- Menú desplegable -->
+      
       <div
         :class="{'hidden': !isMenuOpen, 'block': isMenuOpen, 'md:block': true}"
         id="navbar-default"

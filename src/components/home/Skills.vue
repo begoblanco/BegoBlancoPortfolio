@@ -1,41 +1,42 @@
 <template>
     <div class="container mx-auto">
-        <!-- Título -->
         <div class="text-center">
           <h1 class="text-3xl font-bold">Skills</h1>
         </div>
-        <!-- Contenido -->
         <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-          <!-- Front-end -->
           <div>
             <h2 class="text-xl font-semibold">Front-end</h2>
-            <ul class="mt-4 space-y-2">
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>Vue 3</li>
-              <li>Bootstrap</li>
-              <li>Tailwind CSS</li>
+            <ul class="mt-4 space-y-2 list-disc list-inside">
+              <li>Responsive Web Design</li>
+              <li>UI/UX Design Principles</li>
+              <li>DOM Manipulation & Event Handling</li>
+              <li>Component-based Architecture (Vue 3)</li>
+              <li>Client-Side Routing (Vue Router)</li>
+              <li>Design Prototyping with Figma</li>
             </ul>
           </div>
-          <!-- Back-end -->
           <div>
             <h2 class="text-xl font-semibold">Back-end</h2>
-            <ul class="mt-4 space-y-2">
-              <li>Java</li>
-              <li>Python</li>
-              <li>SpringBoot</li>
+            <ul class="mt-4 space-y-2 list-disc list-inside">
+              <li>RESTful API Design & Development</li>
+              <li>Java Web Development (Spring Boot)</li>
+              <li>Object-Oriented Programming (OOP) in Java</li>
+              <li>SQL Queries</li>
+              <li>Authentication & Authorization (JWT, OAuth)</li>
+              <li>Docker Containerization</li>
+              <li>Unit Testing (JUnit)</li>
+              <li>API Testing (Postman)</li>
             </ul>
           </div>
-          <!-- Others -->
           <div>
-            <h2 class="text-xl font-semibold">Others</h2>
-            <ul class="mt-4 space-y-2">
-              <li>Docker</li>
-              <li>Postman</li>
-              <li>MySQL</li>
-              <li>Figma</li>
-              <li>Arduino</li>
+            <h2 class="text-xl font-semibold">Cybersecurity</h2>
+            <ul class="mt-4 space-y-2 list-disc list-inside">
+              <li>Security Auditing</li>
+              <li>Network Security Analysis</li>
+              <li>Linux Administration</li>
+              <li>SQL Query Optimization</li>
+              <li>Identifying and addressing vulnerabilities</li>
+              <li>Documenting and handling incidents using standardized incident handler techniques</li>
             </ul>
           </div>
         </div>

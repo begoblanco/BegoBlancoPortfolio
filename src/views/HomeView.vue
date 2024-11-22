@@ -7,23 +7,23 @@ import Projects from "@/components/home/Projects.vue";
 
 <template>
   <div>
-    <section id="about" class="bg-gray-100 py-12">
+    <section id="about" class="bg-gray-200 py-12">
       <AboutMe />
     </section>
       
-    <section id="techstack" class="py-12">
+    <section id="techstack" class="py-12 border-t-8 border-pink-300">
       <TechStack />
     </section>
 
-    <section id="skills" class="py-12">
+    <section id="skills" class="py-12  border-t-8 border-pink-300">
       <Skills />
     </section>
 
-    <section id="projects" class="py-12">
+    <section id="projects" class="py-12  border-t-8 border-pink-300">
       <Projects />
     </section>
 
-    <section id="contact" class="py-12">
+    <section id="contact" class="py-12  border-t-8 border-pink-300">
       <div class="container mx-auto">
         <h2 class="text-3xl font-bold text-center mb-8">Contact me</h2>
       </div>

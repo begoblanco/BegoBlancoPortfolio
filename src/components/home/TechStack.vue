@@ -1,15 +1,13 @@
 <template>
-  <div class="container mx-auto">
-    <!-- Título -->
+  <div class="container mx-auto px-4">
     <div class="text-center">
       <h1 class="text-3xl font-bold">Tech Stack</h1>
     </div>
-    <!-- Contenido -->
-    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-      <!-- Front-end -->
-      <div>
-        <h2 class="text-xl font-semibold">Front-end</h2>
-        <ul class="mt-4 space-y-2">
+    <div class="mt-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+
+      <div class="flex flex-col items-center px-6">
+        <h2 class="text-xl font-semibold text-justify">Front-end</h2>
+        <ul class="mt-4 space-y-2 list-disc list-outside text-justify">
           <li>HTML5</li>
           <li>CSS3</li>
           <li>JavaScript</li>
@@ -18,19 +16,17 @@
           <li>Tailwind CSS</li>
         </ul>
       </div>
-      <!-- Back-end -->
-      <div>
-        <h2 class="text-xl font-semibold">Back-end</h2>
-        <ul class="mt-4 space-y-2">
+      <div class="flex flex-col items-center px-6">
+        <h2 class="text-xl font-semibold text-justify">Back-end</h2>
+        <ul class="mt-4 space-y-2 list-disc list-outside text-justify">
           <li>Java</li>
           <li>Python</li>
           <li>SpringBoot</li>
         </ul>
       </div>
-      <!-- Others -->
-      <div>
-        <h2 class="text-xl font-semibold">Others</h2>
-        <ul class="mt-4 space-y-2">
+      <div class="flex flex-col items-center px-6">
+        <h2 class="text-xl font-semibold text-justify">Others</h2>
+        <ul class="mt-4 space-y-2 list-disc list-outside text-justify">
           <li>Docker</li>
           <li>Postman</li>
           <li>MySQL</li>
