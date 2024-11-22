@@ -22,9 +22,9 @@ const projects = [
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto p-4">
     <div class="container mx-auto">
-      <h2 class="text-3xl font-bold text-center mb-8">Projects</h2>
+      <h2 class="text-3xl font-bold text-center mb-8 text-pink-500">Projects</h2>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <PortfolioItem
           v-for="project in projects"
